@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'bundler', '~> 1.15'
 
-  s.add_dependency 'activerecord', '~> 7.0'
+  s.add_dependency 'activerecord', '~> 6.0'
+  s.add_dependency 'arel', '~> 7.1'
   s.add_dependency 'aws-sdk-core', '~> 3.0'
   s.add_dependency 'aws-sdk-timestreamquery', '~> 1.0'
 end
