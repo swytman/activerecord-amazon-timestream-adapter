@@ -12,12 +12,11 @@ Gem::Specification.new do |s|
   s.files = Dir['MIT-LICENSE', 'README.md', 'lib/**/*']
   s.require_paths = ['lib']
 
-  s.required_ruby_version = '~> 2.4'
+  s.required_ruby_version = '~> 3.1'
 
-  s.add_development_dependency 'bundler', '~> 1.3'
+  s.add_development_dependency 'bundler', '~> 1.15'
 
-  s.add_dependency 'activerecord', '>= 4.2', '< 6'
-  s.add_dependency 'arel', '>= 6.0', '< 10'
+  s.add_dependency 'activerecord', '~> 7.0'
   s.add_dependency 'aws-sdk-core', '~> 3.0'
   s.add_dependency 'aws-sdk-timestreamquery', '~> 1.0'
 end
